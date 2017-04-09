@@ -15,6 +15,9 @@ input{
 ul{
 	list-style: none; 
 }
+li{
+	cursor: pointer;
+}
 button{
 	cursor: pointer;
 	padding: 10px 20px;
@@ -24,6 +27,8 @@ button{
 	font-size: 14px;
 	font-weight: bold;
 }
-.complete{
-	color: red;
+.done {
+  text-decoration: line-through;
+  color: gray;
 }
+
